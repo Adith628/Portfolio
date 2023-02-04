@@ -1,6 +1,13 @@
 [
     {
         "id" : 1,
+        "title":"PORTFOLIO",
+        "content":"My portfolio site, using Tailwind CSS and Next.js, showcases my web development expertise with fast, efficient, and visually appealing designs.",
+        "tools":"Next.Js,Tailwind CSS",
+        "link":"https://adith628.github.io/Youtube-clone/"
+    },
+    {
+        "id" : 2,
         "title":"IEDC-WEBSITE",
         "content":"Worked as a developer in the web team of IEDC-CET a club of our college .Were we developed its website using React.js",
         "tools":"React,Html,Css,Javascript",
@@ -8,7 +15,7 @@
 
     },
     {
-        "id" : 2,
+        "id" : 3,
         "title":"SIMPLE CALCULATOR",
         "content":"Created a calculator using Html, Css and Javascript",
         "tools":"Html,Css,Javascript",
@@ -16,19 +23,20 @@
 
     },
     {
-        "id" : 3,
+        "id" : 4,
         "title":"SNAKE GAME",
         "content":"Created a Snake game using python tkinter library",
         "tools":"Python",
         "link":"https://github.com/Adith628/Python_Snake"
     },
     {
-        "id" : 4,
+        "id" :5,
         "title":"YOUTUBE CLONE",
         "content":"Designed a static youtube landing page using Html and Css.",
         "tools":"Html,Css",
         "link":"https://adith628.github.io/Youtube-clone/"
     }
+
  
 
 
