@@ -4,7 +4,7 @@ import Projects from '../projects/projects.json';
 
 function card(){
     return(
-        <div data-aos="fade-up" id='id' className='flex justify-around gap-10 h-96 overflow-auto p-8 px-0  '>
+        <div data-aos="fade-left" id='id' className='flex justify-start gap-12 h-96 overflow-auto p-8  '>
             {
                 Projects.map( project=>{
                     return(
@@ -14,7 +14,7 @@ function card(){
                             <p className='text-teal-500 my-2'>{project.tools}</p>
                             
                             <a className='dark:text-white flex justify-center p-5' href={project.link}>
-                            <AiFillGithub className=' text-4xl ' />
+                            <AiFillGithub className=' icons hover:text-teal-500 text-4xl ' />
                                 </a>    
                         </div>
                     )

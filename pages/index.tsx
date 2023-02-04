@@ -71,54 +71,54 @@ export default function Home() {
           </div>
           <div className='hover:cursor-pointer text-3xl flex justify-center gap-16 text-gray-700 dark:text-white'>  
             <a href="https://twitter.com/Adithya07560528">
-              <AiFillTwitterCircle/>
+              <AiFillTwitterCircle className='icons hover:text-teal-500'/>
             </a>
             <a href="https://www.linkedin.com/in/adithyan-t-ba37b9220/">
-              <AiFillLinkedin/>
+              <AiFillLinkedin className='icons hover:text-teal-500'/>
             </a>
             <a href="https://www.instagram.com/a_d_i_t_h_6_2_8/">
-              <AiFillInstagram/>
+              <AiFillInstagram className='icons hover:text-teal-500'/>
             </a>
           </div>
-		   <div data-aos='zoom-in' data-aos-delay="100" data-aos-duration="1500" id='img' className='circle shadow-2xl relative mx-auto bg-gradient-to-b from-teal-500  to-teal-200 rounded-full w-80 h-80 mt-10'>
+		   <div data-aos='zoom-out' data-aos-delay="100" data-aos-duration="1500" id='img' className='circle shadow-2xl relative mx-auto bg-gradient-to-b from-teal-500  to-teal-200 rounded-full w-80 h-80 mt-10'>
 			   <Image  className=' drop-shadow-2xl' src={pic} layout="fill" objectFit='contain' alt={'image'} />
 		   </div>
       </section>
-      <section className='flex justify-center flex-wrap gap-10  my-10 '>
+      <section className='flex justify-center flex-wrap gap-12  my-10 '>
         <section className='flex-col justify-center self-center max-w-2xl  my-4 mb-10'>
           <h4 className='text-4xl  font-bold my-4 dark:text-teal-400'>About Me</h4>
-            <p className=' text-xl  text-start  dark:text-white '>&nbsp;&nbsp; &nbsp;&nbsp; Hi there! I'm a curious and passionate <span className='text-teal-700 dark:text-teal-300'>front-end react developer</span>  with a love for crafting visually stunning and user-friendly websites.
+            <p className=' text-xl  text-start  dark:text-white '>
+              &nbsp;&nbsp; &nbsp;&nbsp; Hi there! I'm a curious and passionate <span className='text-teal-700 dark:text-teal-300'>front-end react developer</span>  with a love for crafting visually stunning and user-friendly websites.
                 My goal is to turn complex concepts into simple and intuitive experiences for users.
               I strive to stay up-to-date with the latest web development technologies and techniques to deliver top-notch results. Let's create something amazing together.
             </p>
         </section>
-        <section>
-          <div className='flex justify-center    m-8'>
-            <div className='skill flex-col min-w-8xl max-w-4xl bg-white text-center   gap-5 p-5 border-2 rounded-2xl'>
-              <h5 className='text-4xl font-semibold '>My Skills</h5>
+        <div className='w-1 bg-slate-600 dark:bg-teal-300 h-96 rounded-lg self-center' ></div>
+        <section className=' flex justify-center m-8 '>
+            <div className='skill flex-col dark:border-none bg-white text-center  dark:bg-white dark:bg-opacity-10 dark:shadow-[0px_0px_8px_rgba(225,225,225,0.5)] gap-5 p-5 border-2 rounded-2xl'>
+              <h5 className='text-4xl font-semibold dark:text-teal-400 '>My Skills</h5>
               <li>
-                <h3>html</h3>
-                <span id="bar"><span className='html'></span></span>
-              </li>
-              <li>
-                <h3>Css</h3>
-                <span id="bar"><span className='css'></span></span>
-              </li>
-              <li>
-                <h3>Javascript</h3>
-                <span id="bar"><span className='javascript'></span></span>
-              </li>
-              <li>
-                <h3>React</h3>
+                <h3 className='dark:text-white' >React</h3>
                 <span id="bar"><span className='react'></span></span>
               </li>
               <li>
-                <h3>Java</h3>
+                <h3 className='dark:text-white'>html</h3>
+                <span id="bar" className=''><span className='html '></span></span>
+              </li>
+              <li>
+                <h3 className='dark:text-white'>Css</h3>
+                <span id="bar" ><span className='css'></span></span>
+              </li>
+              <li>
+                <h3 className='dark:text-white'>Javascript</h3>
+                <span id="bar"><span className='javascript'></span></span>
+              </li>
+              <li>
+                <h3 className='dark:text-white' >Java</h3>
                 <span id="bar"><span className='java'></span></span>
               </li>
 
             </div>
-          </div>
         </section>
       </section>
       <section>
