@@ -44,7 +44,7 @@ export default function Home() {
                  className="cursor-pointer" /> 
               </li>
               <li >
-                <a href="https://drive.google.com/file/d/1ht1tZJi7fmGOGXBIfIiqyLnmp_n08ngU/view?usp=sharing" 
+                <a target="_blank"  href="https://drive.google.com/file/d/1ht1tZJi7fmGOGXBIfIiqyLnmp_n08ngU/view?usp=sharing" 
                 className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' 
                 >
                   Resume
@@ -70,13 +70,13 @@ export default function Home() {
             </p>
           </div>
           <div className='hover:cursor-pointer text-3xl flex justify-center gap-16 text-gray-700 dark:text-white'>  
-            <a href="https://twitter.com/Adithya07560528">
+            <a target="_blank"  href="https://twitter.com/Adithya07560528">
               <AiFillTwitterCircle className='icons hover:text-teal-500'/>
             </a>
-            <a href="https://www.linkedin.com/in/adithyan-t-ba37b9220/">
+            <a target="_blank"  href="https://www.linkedin.com/in/adithyan-t-ba37b9220/">
               <AiFillLinkedin className='icons hover:text-teal-500'/>
             </a>
-            <a href="https://www.instagram.com/a_d_i_t_h_6_2_8/">
+            <a target="_blank" href="https://www.instagram.com/a_d_i_t_h_6_2_8/">
               <AiFillInstagram className='icons hover:text-teal-500'/>
             </a>
           </div>

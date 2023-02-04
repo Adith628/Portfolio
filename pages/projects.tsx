@@ -13,7 +13,7 @@ function card(){
                             <p className='dark:text-white my-2'>{project.content}</p>
                             <p className='text-teal-500 my-2'>{project.tools}</p>
                             
-                            <a className='dark:text-white flex justify-center p-5' href={project.link}>
+                            <a target="_blank"  className='dark:text-white flex justify-center p-5' href={project.link}>
                             <AiFillGithub className=' icons hover:text-teal-500 text-4xl ' />
                                 </a>    
                         </div>
