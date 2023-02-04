@@ -4,7 +4,7 @@
         "title":"PORTFOLIO",
         "content":"My portfolio site, using Tailwind CSS and Next.js, showcases my web development expertise with fast, efficient, and visually appealing designs.",
         "tools":"Next.Js,Tailwind CSS",
-        "link":"https://adith628.github.io/Youtube-clone/"
+        "link":"https://github.com/Adith628/Portfolio"
     },
     {
         "id" : 2,
@@ -36,12 +36,5 @@
         "tools":"Html,Css",
         "link":"https://adith628.github.io/Youtube-clone/"
     }
-
- 
-
-
-
-
-
 
 ]
