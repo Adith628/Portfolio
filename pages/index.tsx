@@ -18,7 +18,7 @@ export default function Home() {
     AOS.init({
       duration:1500,
       easing:'ease-out'
-    },[])
+    })
   })
   const[darkMode,setDarkMode] = useState(false);
   return (
@@ -55,7 +55,7 @@ export default function Home() {
           <div className='text-center p-10 '>
               
             <p className='text-4xl  text-gray-700 dark:text-white dark:drop-shadow-[0px_0px_6px_rgba(225,225,225,0.2)]'> 
-             Hi,<span className='font-extrabold text-4xl font-mono'>I</span>'m</p>
+             Hi,<span className='font-extrabold text-4xl font-mono'>I</span>&apos;m</p>
               
             <h2 id='name' className='Adith text-8xl font-extrabold py-2 drop-shadow-[2px_2px_3px_rgba(0,0,0,0.2)] font-sans text-teal-600 dark:drop-shadow-[0px_0px_3.5px_rgba(225,225,225,0.35)]'>
             
@@ -88,9 +88,9 @@ export default function Home() {
         <section className='flex-col justify-center self-center max-w-2xl  my-4 mb-10'>
           <h4 className='text-4xl  font-bold my-4 dark:text-teal-400'>About Me</h4>
             <p className=' text-xl  text-start  dark:text-white '>
-              &nbsp;&nbsp; &nbsp;&nbsp; Hi there! I'm a curious and passionate <span className='text-teal-700 dark:text-teal-300'>front-end react developer</span>  with a love for crafting visually stunning and user-friendly websites.
+              &nbsp;&nbsp; &nbsp;&nbsp; Hi there! I&apos;m a curious and passionate <span className='text-teal-700 dark:text-teal-300'>front-end react developer</span>  with a love for crafting visually stunning and user-friendly websites.
                 My goal is to turn complex concepts into simple and intuitive experiences for users.
-              I strive to stay up-to-date with the latest web development technologies and techniques to deliver top-notch results. Let's create something amazing together.
+              I strive to stay up-to-date with the latest web development technologies and techniques to deliver top-notch results. Let&apos;s create something amazing together.
             </p>
         </section>
         <div className='w-1 bg-slate-600 dark:bg-teal-300 h-96 rounded-lg self-center' ></div>
@@ -131,16 +131,16 @@ export default function Home() {
           </div>
         </div>
         <div className='z-500'>
-            <h className='text-2xl font-semibold font-400 py-1 dark:text-white'>Services I offer</h>
+            <p className='text-2xl font-semibold font-400 py-1 dark:text-white'>Services I offer</p>
             <p className='text-md leading-8 text-gray-800 dark:text-gray-400'>I am intrested in doing collaborate projects and 
               Do provide Services based on Front end development</p>
         </div>
       </section>
       <section className='mt-8 '>
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
+        <div className="wave wave1"></div>
+        <div className="wave wave2"></div>
+        <div className="wave wave3"></div>
+        <div className="wave wave4"></div>
     </section>
     </main>
   </div>
