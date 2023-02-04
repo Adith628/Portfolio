@@ -26,10 +26,10 @@
     display: none; 
  }
 
-*{
-    list-style-type: none;
-}
 
+.services{
+    list-style-type:square;
+}
 .circle{
     border-radius:44% 56% 46% 54% / 56% 59% 41% 44%  ;
 }
@@ -113,6 +113,19 @@ section .wave.wave4{
     transition: transform 0.25s;
 }
 
+.hr{
+    display: none;
+}
+
+@media(max-width:1265px){
+    .hr{
+        display: inline;
+    }
+    .vr{
+        display: none;
+    }
+}
+
 @media(max-width:451px ) {
     #name{
         font-size:35px ;
@@ -161,6 +174,7 @@ h3{
     min-width: 350px;
     max-width: 500px;
     transition: width 0.2s;
+    list-style-type: none;
 }
 .icons{
     transition: color 0.5s;
