@@ -93,7 +93,7 @@ export default function Home() {
               I strive to stay up-to-date with the latest web development technologies and techniques to deliver top-notch results. Let&apos;s create something amazing together.
             </p>
         </section>
-        <div className='w-1 bg-slate-600 dark:bg-teal-300 h-96 rounded-lg self-center' ></div>
+        {/* <div className='w-1 bg-slate-600 dark:bg-teal-300 h-96 rounded-lg self-center' ></div> */}
         <section className=' flex justify-center m-8 '>
             <div data-aos="zoom-in" className='skill   flex-col dark:border-none bg-white text-center  dark:bg-white dark:bg-opacity-10 dark:shadow-[0px_0px_8px_rgba(225,225,225,0.5)] gap-5 p-5 border-2 rounded-2xl'>
               <h5 className='text-4xl font-semibold dark:text-teal-400 '>My Skills</h5>
