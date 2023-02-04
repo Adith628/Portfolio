@@ -4,7 +4,7 @@ import Projects from '../projects/projects.json';
 
 function card(){
     return(
-        <div data-aos="fade-left" id='id' className='flex justify-start gap-12 h-96 overflow-auto p-8  '>
+        <div data-aos="fade-left" id='id' className='px-1 flex justify-start gap-12 h-96 overflow-auto p-8  '>
             {
                 Projects.map( project=>{
                     return(

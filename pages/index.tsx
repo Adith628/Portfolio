@@ -55,7 +55,7 @@ export default function Home() {
           <div className='text-center p-10 '>
               
             <p className='hi text-4xl  text-gray-700 dark:text-white dark:drop-shadow-[0px_0px_6px_rgba(225,225,225,0.2)]'> 
-             Hi,<span className='font-extrabold text-4xl font-mono'>I</span>&apos;m</p>
+             Hi,<span className='hi font-extrabold text-4xl font-mono'>I</span>&apos;m</p>
               
             <h2 id='name' className='Adith text-8xl font-extrabold py-2 drop-shadow-[2px_2px_3px_rgba(0,0,0,0.2)] font-sans text-teal-600 dark:drop-shadow-[0px_0px_3.5px_rgba(225,225,225,0.35)]'>
             
