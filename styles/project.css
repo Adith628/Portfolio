@@ -218,11 +218,11 @@ h3{
 }
 
 .html{
-    width:90%;
+    width:75%;
     animation: html 3s;
 }
 .css{
-    width:80%;
+    width:70%;
     animation: css 3s;
 }
 .javascript{
@@ -230,11 +230,11 @@ h3{
     animation: javascript 3s;
 }
 .react{
-    width:70%;
+    width:60%;
     animation: react 3s;
 }
 .java{
-    width:85%;
+    width:55%;
     animation: java 3s;
 }
 @keyframes html{
