@@ -218,11 +218,11 @@ h3{
 }
 
 .html{
-    width:75%;
+    width:70%;
     animation: html 3s;
 }
 .css{
-    width:70%;
+    width:75%;
     animation: css 3s;
 }
 .javascript{
@@ -242,7 +242,7 @@ h3{
         width: 0%;
      }
      100%{
-        width: 90%;
+        width: 70%;
      }
 }
 @keyframes css{
@@ -250,7 +250,7 @@ h3{
        width: 0%;
     }
     100%{
-       width: 80%;
+       width: 75%;
     }
 }
 @keyframes javascript{
@@ -274,6 +274,16 @@ h3{
        width: 0%;
     }
     100%{
-       width: 85%;
+       width: 65%;
     }
 }
+
+.profileimg{
+    animation: animate 10s infinite ease alternate;
+  }
+  
+  @keyframes animate{
+    to{
+      transform: translateY(-10%);
+    }
+  }

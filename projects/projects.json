@@ -1,10 +1,26 @@
 [
     {
+        "id" : 7,
+        "title":"AI-Sumz",
+        "content":"AI-Sumz is a web app built with React.js, Tailwind CSS, Redux, and the OpenAI API.Helps to summarize lengthy articles into concise snippets of key information.",
+        "tools":"React,Redux,Javascript",
+        "link":"https://ai-sumz.vercel.app/"
+
+    },
+    {
         "id" : 6,
         "title":"NETFLIX-Clone",
         "content":"A netflix clone created using react,redux and tmdb api .The web app is also made responsive",
         "tools":"React,Css,Javascript",
         "link":"https://netflix-clone-kappa-topaz.vercel.app/"
+
+    },
+    {
+        "id" : 8,
+        "title":"3D-Portfolio",
+        "content":"A sample 3D responsive and reactive portfolio website made using three.js and react.js.",
+        "tools":"React,Threejs,Javascript",
+        "link":"https://3-d-porfolio.vercel.app/"
 
     },
     {

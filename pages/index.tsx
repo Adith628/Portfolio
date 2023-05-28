@@ -87,7 +87,7 @@ export default function Home() {
             </a>
           </div> */}
 		   <div data-aos='zoom-out' data-aos-delay="100" data-aos-duration="1500" id='img' className='circle shadow-2xl relative mx-auto bg-gradient-to-b from-teal-500  to-teal-200 rounded-full w-80 h-80 mt-10'>
-			   <Image  className=' drop-shadow-2xl' src={pic} layout="fill" objectFit='contain' alt={'image'} />
+			   <Image  className='profileimg drop-shadow-2xl' src={pic} layout="fill" objectFit='contain' alt={'image'} />
 		   </div>
       </section>
       <section className='flex justify-center flex-wrap gap-12  my-10 '>
