@@ -279,7 +279,7 @@ h3{
 }
 
 .profileimg{
-    animation: animate 10s infinite ease alternate;
+    animation: animate 5s infinite ease alternate;
   }
   
   @keyframes animate{
